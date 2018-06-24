@@ -1,0 +1,36 @@
+/*
+* @Author: 11740
+* @Date:   2018-06-23 22:09:48
+* @Last Modified by:   11740
+* @Last Modified time: 2018-06-23 22:34:45
+*/
+.all {
+	width: 700px;
+	height: 800px;
+	background-color: #DBDBDB;
+	font-family: 黑体;
+}
+.lef{
+	background-color: blue;
+	width: 120px;
+	height: 740px;
+	font-size: 50px;
+	color: white;
+	padding: 50px 30px 10px;	
+	float: left;
+}
+.rig{
+	float: right;
+	padding-right: 50px;
+	padding-top: 10px;
+}
+.footer{
+	margin-top: 0px;
+	font-size: 35px;
+}
+.title{
+	font-size: 25px;
+}
+.sub{
+	font-weight: bold;
+}

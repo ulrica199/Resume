@@ -1,0 +1,22 @@
+/*
+* @Author: 11740
+* @Date:   2018-06-23 20:50:51
+* @Last Modified by:   11740
+* @Last Modified time: 2018-06-23 22:08:54
+*/
+.all {
+	width: 600px;
+	height: 800px;
+	background-color: #DBDBDB;
+	font-family: 黑体;
+}
+.footer{
+	margin-top: 0px;
+	font-size: 35px;
+}
+.title{
+	font-size: 25px;
+}
+.sub{
+	font-weight: bold;
+}

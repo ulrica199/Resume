@@ -1,0 +1,62 @@
+/*
+* @Author: 11740
+* @Date:   2018-06-23 22:36:27
+* @Last Modified by:   11740
+* @Last Modified time: 2018-06-24 16:24:13
+*/
+.all {
+	width: 700px;
+	height: 800px;
+	background-color: #DBDBDB;
+	font-family: 黑体;
+}
+.lef{
+	background-color: #CDBA96;
+	width: 640px;
+	height: 50px;
+	font-size: 30px;
+	color: white;
+	padding: 20px 30px 10px;	
+}
+.fra{
+	display: inline-block;
+	width: 698px;
+	height: 150px;
+	border:1px solid #CFCFCF;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -3px;
+}
+.footer{
+	margin-top: 0px;
+	font-size: 35px;
+}
+.fra .title{
+	width: 120px;
+	text-align: center;
+	line-height: 150px;
+	font-size: 25px;
+	background-color:#BFEFFF;
+	position: absolute;
+	/* 定位在父盒子左边 */
+	left: 0;
+	top:0;
+
+}
+.fra .content{
+	/* 使用float无法对齐，但是不明白为什么这样可以？ */
+	/* margin-top: -18px; */
+	width: 578px;
+	height: 150px;
+	text-align: center;
+	background-color: #FFFFF0;
+	/* 使用绝对定位 */
+	position: absolute;
+	/* 定位在父盒子右边 */
+	right: 0;
+	top:0;
+
+}
+.sub{
+	font-weight: bold;
+}
